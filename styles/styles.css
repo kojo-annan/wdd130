@@ -1,3 +1,10 @@
+:root {
+    --heading-background-color: #f06;
+    --heading-text-color: #333;
+    --heading-font: 'Montserrat', Helvetica, sans-serif;
+    --padding: 1rem;
+    --border: 1px solid rgb(0 0 0 / 0.1);
+}
 nav {
     background-color: darkblue;
     padding:10px;
@@ -27,9 +34,9 @@ aside{
     width: 20rem;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem;
+    padding: var(--padding);
     background-color: #eee;
-    color: #333;
+    color: var(--heading-text-color);
     text-align: center;
 }
 aside img{
