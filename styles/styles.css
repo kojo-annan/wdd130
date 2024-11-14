@@ -29,9 +29,10 @@ main img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
+    margin: 0 0 1rem 1rem
 }
 p {
-    padding: var(--padding);
+    padding: 0;
 }
 main{
     max-width: 840px;
@@ -66,8 +67,8 @@ footer{
 /* class selectors */
 .box {
     margin: 1rem;
-    padding: var(--heading-font);
-    background-color: var(--heading-background-color);
+    padding: 1rem;
+    background-color: #ddd;
     border: 1px solid rgb(0 0 0 / 0.1);
-    color: var(--heading-text-color);
+    color: #000;
 }
