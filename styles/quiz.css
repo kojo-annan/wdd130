@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: indigo;
+}
+body {
+    font-family: fantasy;
+    line-height: 2.5;
+    padding: 20px;
+    background-color: wheat;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid lightseagreen;
+    border-radius: 1%;
+    font-size: 16px;
+    height: 40px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: brown;
+    color: #fff;
+    border: navy;
+    border-radius: 4px;
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+    font-size: larger;
+}    
+
+form {
+    max-width: 650px;
+    margin: 0 auto;
+    background: lightslategray;
+    padding: 20px;
+    border-radius: 1%;
+}    
+
+textarea {
+    height: 100px;
+}
