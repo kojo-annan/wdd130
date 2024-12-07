@@ -36,7 +36,7 @@
   }
   
   p {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
   }
 
   nav a {
@@ -128,7 +128,9 @@ section p {
   }
   
   footer a {
-    text-decoration: none; 
+    text-decoration: none;
+    color: red;
+    display: inline-block;
   }
 
   /*footer .social-icons {
@@ -140,3 +142,43 @@ footer img{
   width: 40px;
   height: 40px;
 }
+
+ h2 {
+  font-size: 3rem;
+  color: black;
+ }
+
+ h1 {
+  font-size: 3rem;
+  color: black;
+ }
+
+ .contact-form {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+ }
+
+ button {
+  width: 100%;
+  font-size: large;
+  margin-bottom: 20px;
+ }
+
+.contact-form fieldset {
+  display: flex;
+  font-size: small;
+}
+
+ .contact-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 2px;
+ }
+
+ input[type="checkbox"] {
+  width: 22px;
+  height: 22px;
+  display: block;
+ }
